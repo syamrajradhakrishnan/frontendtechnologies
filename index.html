@@ -1,14 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Front End Technologies</title>
-    <link rel="icon" type="image/x-icon" href="./images/icon.png">
+    <title>TECH TERRITORY</title>
+    <link rel="icon" type="image/x-icon" href="./images/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
 </head>
+
 <body>
-     
+    <!--navbar-->
+    <nav class="py-3 navbar navbar-expand-lg fixed-top auto-hiding-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./images/logo.png" class="logo" alt="logo" />
+                TECH TERRITORY
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- endnavbar -->
+    <!--section1-->
+    <section id="section1">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>FRONT END TECHNOLOGIES</h1>
+                    <p>Front End is the visible part of a website or software to users. The front end displays
+                        incomprehensible codes to users in a graphical and visual format so that they can easily use
+                        different parts of a site. Input forms, sounds, images, videos, and generally anything else that
+                        can be understood by the user are placed in this section</p>
+                </div>
+                <div class="col img-col">
+                    <img src="./images/frontend.png" alt="front end technologies" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--section1 end-->
+    <!-- section2 -->
+    <section id="section2">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>main technologies</h2>
+                    <h3><u>HTML</u></h3>
+                    <img src="./images/html.png" alt="html" class="img-fluid">
+                    <P><b>HTML</b> is the first layer of any website and creates the code version of a wireframe on a
+                        webpage.
+                        These wireframes exist for the styles in CSS and all the bells and whistles in JavaScript.
+                        <br><br>
+                        The letters in HTML stand for Hypertext Markup Language. The markup piece of the name is the
+                        most important to remember, as markups are the proper name for HTML elements, which are also
+                        called HTML tags. HTML as a whole is the markup that creates the basic elements we view on a
+                        website. <br><br>However, it’s important to remember that HTML isn’t particularly intelligent.
+                        It
+                        doesn’t make
+                        decisions or capture information on its own. It simply renders the scaffolding of the web pages.
+                    </P>
+                    <h3><u>CSS</u></h3>
+                    <img src="./images/css.png" alt="css" class="img-fluid">
+                    <P>Cascading Style Sheets, or <b>CSS</b>, is what gives our HTML visual appeal and draws in the
+                        user. To
+                        put it simply, style sheets dictate the presentation of HTML elements on a page. <br><br>CSS is
+                        what makes everything not look like a white background with a bunch of Times New Roman
+                        texts and blue hyperlinks. Have you ever tried to load Amazon on a bad day and see nothing but a
+                        white page with a huge list of black texts, some blue links and nothing else? That’s Amazon
+                        loading without styles. Styles are what transition beautiful designs onto a site. <br><br>A new
+                        trend with styling is to use what is called a CSS pre-processor. These include Less, Sass
+                        and stylists. Pre-processors are scripting languages that compile to CSS for the browser and are
+                        very popular as they expedite the development process. They accommodate some programming logic.
+                        <br><br>CSS pre-processors consolidate styling through “usability” and scale easily for use with
+                        large
+                        websites. Most front-end engineers of all levels have experience with pre-processors due to
+                        their power and flexibility to suit all scenarios, from building small single-page websites to
+                        enterprise applications such as Groupon or NBCUniversal.
+                    </P>
+                    <h3><u>JAVA SCRIPT</u></h3>
+                    <img src="./images/js.png" alt="java script" class="img-fluid">
+                    <P><b>JavaScript</b> is a runtime language for web browsers. This means that when you open a web
+                        page, the
+                        page will load both the foundational JavaScript that is standard with the page and any new
+                        JavaScript added to a page. The new JavaScript will load in parallel with it and can perform
+                        actions and make decisions. <br><br>JavaScript differentiates from back-end languages such as
+                        Java or Ruby in that it’s visible to
+                        the user and is not compiled ahead of time to run secretly behind the curtain. It’s the true
+                        programming language of front-end engineering and the underlying language that ties everything
+                        together. <br><br>A great example of JavaScript in action is OpenTable. Once we decide, “I want
+                        a table for two at
+                        7 P.M. in Seattle on July 25th,” a list of restaurants with tables to reserve shows up. From
+                        here, we can look at a map with a list alongside it.
+
+                    </P>
+                    <h2>OTHER TECHNOLOGIES</h2>
+                    <h3><u>React</u></h3>
+                    <P>React is a library built on top of JavaScript. This means that it provides new syntax but it
+                        still has good old JavaScript under the hood. By its declarative and component-based nature,
+                        React makes creating web pages and web applications much faster and easier.It was created by
+                        Facebook. Initially, it was supposed to be their internal tool helping the frontend developers
+                        to build fast and easily-scalable interfaces, but the company decided to publish it as an
+                        open-source project. At the moment, React is one of the most popular JS tools with a huge
+                        community of programmers.
+                    </P>
+                    <h3><u>Angular</u></h3>
+                    <P>Angular is a full-fledged JavaScript-based frontend framework supported by Google. The modularity
+                        and component-based approach it provides has gathered a strong community among frontend
+                        developers across the whole world. Some developers say that it’s a bit harder to learn Angular
+                        than React but it’s definitely worth it as there is a high demand on the market for experts in
+                        this technology
+                    </P>
+                    <h3><u>Vue</u></h3>
+                    <P>Vue is a JavaScript framework responsible for creating user interfaces. It’s also based on
+                        JavaScript and provides a declarative and component-based programming experience (similar to
+                        React). It competes with Angular and React to rule the market. As proof of Vue’s popularity,
+                        it’s worth mentioning that it has millions of weekly downloads on npm
+                    </P>
+                </div>
+            </div>
+    </section>
+    <!-- section2 end -->
+
 </body>
+
 </html>

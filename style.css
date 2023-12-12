@@ -1,0 +1,88 @@
+body {
+    display: block;
+    overflow-x: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    background-color: white;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #683aa4;
+}
+
+nav ul li a {
+    color: #ff0000;
+    font-size: 22px;
+    margin: auto 10px;
+    
+}
+
+nav ul li a:hover {
+    color: #683aa4;
+}
+
+section {
+        padding-bottom: 50px;
+}
+
+section h1 {
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #683aa4;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 16px;
+    font-weight: 400;
+}
+#section1 {
+    padding-top: 100px;
+}
+#section1 .col {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+#section1 .img-col {
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+#section1 img {
+    max-width: 100% !important;
+    width: 100%;
+}
+#section2 h2 {
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #683aa4;
+    text-align: left;
+    margin-bottom: 20px;
+}
+#section2 h3 {
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #683aa4;
+    text-align: left;
+    margin-bottom: 20px;
+}
+#section2 p {
+    font-size: 16px;
+    font-weight: 400;
+}
+#section2 img {
+    max-width:100px;
+    margin-bottom: 20px;
+}
